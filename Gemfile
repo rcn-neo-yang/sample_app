@@ -28,7 +28,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 group :development, :test do
-  gem 'rspec-rails', '>= 2.14.2' 
+  gem 'rspec-rails', '>= 2.14.2'
+  gem 'test_notifier', '~> 2.0.2' 
 end
 
 group :test do
