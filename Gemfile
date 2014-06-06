@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 1.2'
 group :development, :test do
   gem 'rspec-rails', '>= 2.14.2'
   gem 'test_notifier', '~> 2.0.2' 
+  #gem 'spork', '~> 0.9.2'
+  gem 'spork', '~> 1.0rc'
+  gem 'spork-rails', '~> 4.0.0'
 end
 
 group :test do
