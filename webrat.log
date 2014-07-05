@@ -293,3 +293,9 @@ D, [2014-07-05T08:54:19.557813 #773] DEBUG -- : REQUESTING PAGE: GET /help with 
 D, [2014-07-05T08:54:19.592822 #773] DEBUG -- : REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
 D, [2014-07-05T08:54:19.631724 #773] DEBUG -- : REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
 D, [2014-07-05T08:54:19.788757 #773] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+D, [2014-07-05T08:56:23.305438 #923] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-07-05T08:56:23.352046 #923] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-07-05T08:56:23.393160 #923] DEBUG -- : REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-07-05T08:56:23.440347 #923] DEBUG -- : REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+D, [2014-07-05T08:56:23.598678 #923] DEBUG -- : REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+D, [2014-07-05T08:56:23.635050 #923] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
