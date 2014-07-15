@@ -27,12 +27,16 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# rails4 recommended use protected_attribute, if use add gem 
+gem 'protected_attributes'
+
 group :development, :test do
   gem 'rspec-rails', '>= 2.14.2'
   gem 'test_notifier', '~> 2.0.2' 
   #gem 'spork', '~> 0.9.2'
   gem 'spork', '~> 1.0rc'
   gem 'spork-rails', '~> 4.0.0'
+  gem 'annotate', ">=2.6.0"
 end
 
 group :test do
