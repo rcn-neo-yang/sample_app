@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 1.2'
 # rails4 recommended use protected_attribute, if use add gem 
 gem 'protected_attributes'
 
+# user's avatar
+gem 'gravatar_image_tag', '0.1.0'
+
 group :development, :test do
   gem 'rspec-rails', '>= 2.14.2'
   gem 'test_notifier', '~> 2.0.2' 
@@ -41,6 +44,7 @@ end
 
 group :test do
   gem 'webrat', '>= 0.7.3'
+  gem 'factory_girl_rails', '1.0'
 end
 
 group :doc do
